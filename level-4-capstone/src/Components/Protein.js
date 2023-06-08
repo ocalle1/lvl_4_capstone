@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
+
+
 function MyComponent() {
 
   const [meals, setMeals] = useState([]);
@@ -31,7 +33,7 @@ function MyComponent() {
   const handleMealClick = (meal) => {
     setSelectedMeal(meal);
     axios
-    // Template Literals b/c JSX in http
+      // Template Literals b/c JSX in http
       .get(`https://api.spoonacular.com/recipes/${meal.id}/ingredientWidget.json`, {
         // params pairs the apiKey to the url to authorize the use of Spoonacular
         params: {

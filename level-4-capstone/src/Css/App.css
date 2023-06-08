@@ -1,10 +1,3 @@
-
-
-/* .navbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} */
 .title{
   color: #fff;
 }
@@ -33,36 +26,6 @@ ul{
    text-align: center;
    color: #000;
 }
-
-
-/* Mobile first */
-@media (min-width: 350px) and (max-width:400){
-.navbar{
-  background-color: blueviolet;
-}
-.title{
-  background-color: aqua
-}
-};
-
-/* Tablets */
-@media (min-width: 600px){
-  .navbar{
-    background-color: aliceblue;
-  }
-  .title{
-    background-color: black
-  }
-};
-
- 
-/*  */
-@media(min-width:1500px){
-  .navbar{background-color: black;
-  }
-}
-
-
 button { 
   border: none; 
 }
@@ -78,4 +41,44 @@ button {
 .blue-theme {
   background-color: blue;
   color: blue;
+}
+/* Mobile first */
+
+@media (min-width: 400px) and (max-width: 600px) {
+  /* html { background: red; } */
+  .navbar{
+    background-color: blueviolet;
+  }
+  .title{
+    background-color: aqua;
+  }
+  .footer{
+    background-color: red
+  }
+}
+/* Tablets */
+
+@media (min-width: 600px) {
+  .navbar{
+    background-color: yellowgreen
+  }
+  .title{
+    background-color: pink;
+  }
+  .footer{
+    background-color: lightcoral
+  }
+}
+/* Desktop */
+
+@media(min-width:1200px){
+  .navbar{
+    background-color: lightblue;
+  }
+  .title{
+    background-color: rebeccapurple;
+  }
+  .footer{
+    background-color: orange
+  }
 }

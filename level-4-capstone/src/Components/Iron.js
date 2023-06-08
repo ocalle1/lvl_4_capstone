@@ -72,8 +72,9 @@ function Iron() {
             </ul>
           </div>
         )}
-    </div>
-      </>
-      )
+      </div>
+    </>
+  )
 }
-      export default Iron;
+
+export default Iron;

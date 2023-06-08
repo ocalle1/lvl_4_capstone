@@ -82,6 +82,4 @@ function Carb() {
     )
 };
 
-
-
 export default Carb;
