@@ -14,6 +14,7 @@ function Header(props) {
 
     return (
         <>
+        {/* In App.js you could call the information below and designate this page as the {props.children} */}
             <h1 className="title">Ability Meals</h1>
             <nav className="navbar">
                 <Link to="protein" style={linkStyle}>Protein</Link>

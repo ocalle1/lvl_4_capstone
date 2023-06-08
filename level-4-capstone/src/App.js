@@ -23,7 +23,6 @@ function App() {
           <Route path="/proteinMeals/:id" element={<Protein />} />
           <Route path="/carbMeals/:id" element={<Carb />} />
           <Route path="/ironMeals/:id" element={<Iron />} />
-
         </Routes>
       </Router>
       
