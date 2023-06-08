@@ -1,0 +1,81 @@
+
+
+/* .navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} */
+.title{
+  color: #fff;
+}
+body{
+  background-color: black; 
+}
+.api-link{
+  color:white;
+}
+.navbar{
+  background-color: #fff;
+}
+ul{
+  list-style-type: none;
+}
+.text{
+  color: #fff;
+}
+.footer{
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+   text-align: center;
+   color: #000;
+}
+
+
+/* Mobile first */
+@media (min-width: 350px) and (max-width:400){
+.navbar{
+  background-color: blueviolet;
+}
+.title{
+  background-color: aqua
+}
+};
+
+/* Tablets */
+@media (min-width: 600px){
+  .navbar{
+    background-color: aliceblue;
+  }
+  .title{
+    background-color: black
+  }
+};
+
+ 
+/*  */
+@media(min-width:1500px){
+  .navbar{background-color: black;
+  }
+}
+
+
+button { 
+  border: none; 
+}
+.light-theme {
+  background-color: #cfcfcf;
+  color: #fff
+}
+
+.green-theme {
+  background-color:green;
+  color: green; 
+}
+.blue-theme {
+  background-color: blue;
+  color: blue;
+}
